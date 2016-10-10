@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifact name="AndroidCallPublisher" version="1.0.0" type="event/publisher" serverRole="DataAnalyticsServer">
+    <file>org.wso2.iot.android.call.ui.publisher.xml</file>
+</artifact>

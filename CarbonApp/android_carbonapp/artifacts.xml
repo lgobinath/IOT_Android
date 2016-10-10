@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+	<artifact name="android_carbonapp" type="carbon/application" version="1.0.0">
+		<!-- Event STreams -->
+		<dependency artifact="AndroidCallStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidActivityStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidActivityStatsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidScreenStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidSmsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidDataStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidScreenStatsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidCallStatsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidDataStatsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidSenseStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidBatteryStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidSmsStatsStream" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+
+		<!-- Strem event stores -->
+		<dependency artifact="AndroidActivityStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidLocationStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidScreenStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidDataStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidCallStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidHeadsetStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidLocationStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+		<dependency artifact="AndroidSmsStatsStore" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+
+		<!-- Execution plan -->
+		<dependency artifact="AndroidSenseExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidDataExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidLocationExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidSMSExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidActivityExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidAudioExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidScreenExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+		<dependency artifact="AndroidCallExecutionPlan" version="1.0.0" include="true" serverRole="ComplexEventProcessor"/>
+
+		<!-- Spark scripts -->
+		<dependency artifact="AndroidFrequentContacts" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidSmsScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidActivityScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidDataScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidCallScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidLocationScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidAudioScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidScreenScript" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		
+		<!-- Event publishers -->
+		<dependency artifact="AndroidScreenPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidCallPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidSmsPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidAudioPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidLocationPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidDataPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+		<dependency artifact="AndroidBatteryPublisher" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+
+		<!-- Gadgets -->
+		<dependency artifact="AndroidActiveStackChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidActiveTimeChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidActivityChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidBatteryLevelChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidBatteryPercentageChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidCallTimeChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidDataUsageChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidFrequentContactsList" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidHeadsetUsageChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidLocationMap" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeAudio" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeBattery" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeCall" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeData" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeScreen" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidRealtimeSMS" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidScreenOnChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+        <dependency artifact="AndroidSMSChart" version="1.0.0" include="true" serverRole="DataAnalyticsServer"/>
+
+        <!-- Dashboard -->
+		<dependency artifact="Dashboard" include="true" serverRole="DataAnalyticsServer" version="1.0.0"/>
+	</artifact>
+</artifacts>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifact name="AndroidRealtimeScreen" version="1.0.0" type="dashboards/gadget" serverRole="DataAnalyticsServer">
+    <file>Android_Realtime_Screen</file>
+</artifact>

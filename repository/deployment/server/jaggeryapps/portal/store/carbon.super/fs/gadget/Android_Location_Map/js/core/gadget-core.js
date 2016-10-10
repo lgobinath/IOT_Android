@@ -63,6 +63,7 @@ $(function() {
             deviceId = data[0][2];
             latitude = data[0][4];
             longitude = data[0][5];
+            // Build the message to show on popup
             message = "<p align='center'><b>" + user + "</b><br/>[" + latitude + ", " + longitude + "]</p>";
             if (currentView == "current-location") {
                 geoMap.showCurrentLocation(deviceId, latitude, longitude, message);
